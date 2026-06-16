@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShopEasy E-Commerce Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+   <h1>🛒 ShopEasy</h1>
+
+    <h2>Cart: <span id="cart-count">0</span></h2>
+
+    <h3>Total: ₹<span id="total-price">0</span></h3>
+
+    <h3>Cart Items</h3>
+    <ul id="cart-items"></ul>
+
+    <input type="text" id="search"
+    placeholder="Search Product..."
+    onkeyup="searchProduct()">
+
+    <div class="product">
+
+        <div class="card">
+            <img src="images/headphones.jpg" alt="Headphones">
+            <h2>Headphones</h2>
+            <p>₹999</p>
+            <button onclick="addToCart('Headphones',999)">
+                Add to Cart
+            </button>
+        </div>
+
+        <div class="card">
+            <img src="images/watch.jpg" alt="Smart Watch">
+            <h2>Smart Watch</h2>
+            <p>₹1999</p>
+            <button onclick="addToCart('Smart Watch',1999)">
+                Add to Cart
+            </button>
+        </div>
+
+        <div class="card">
+            <img src="images/laptopbag.jpg" alt="Laptop Bag">
+            <h2>Laptop Bag</h2>
+            <p>₹799</p>
+            <button onclick="addToCart('Laptop Bag',799)">
+                Add to Cart
+            </button>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
