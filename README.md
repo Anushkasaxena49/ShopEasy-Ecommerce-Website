@@ -18,4 +18,4 @@ This is a simple e-commerce website built using HTML, CSS, and JavaScript.
 Just open index.html in your browser.
 
 ## Author
-Your Name
+Anushka Saxena
